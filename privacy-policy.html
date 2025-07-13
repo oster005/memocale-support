@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoCale プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .language-selector {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .language-selector button {
+            margin: 0 5px;
+            padding: 8px 16px;
+            border: 1px solid #007AFF;
+            background: white;
+            color: #007AFF;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .language-selector button.active {
+            background: #007AFF;
+            color: white;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+        h1 {
+            color: #1d1d1f;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #424245;
+            margin-top: 30px;
+        }
+        .contact {
+            background: #f5f5f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <button onclick="showLanguage('ja')" class="active" id="btn-ja">日本語</button>
+        <button onclick="showLanguage('en')" id="btn-en">English</button>
+        <button onclick="showLanguage('zh')" id="btn-zh">中文</button>
+        <button onclick="showLanguage('ko')" id="btn-ko">한국어</button>
+    </div>
+
+    <!-- 日本語版 -->
+    <div id="content-ja" class="content active">
+        <h1>MemoCale プライバシーポリシー</h1>
+        <p><strong>最終更新日：2025年1月</strong></p>
+        
+        <h2>1. 収集する情報</h2>
+        <p>MemoCaleは、以下の情報を収集します：</p>
+        <ul>
+            <li>作成されたメモの内容（デバイス内にのみ保存）</li>
+            <li>アプリの設定情報（テーマ、言語設定等）</li>
+            <li>祝日データ（date.nager.at APIから取得）</li>
+        </ul>
+
+        <h2>2. 情報の利用目的</h2>
+        <p>収集した情報は以下の目的で利用します：</p>
+        <ul>
+            <li>メモ機能の提供</li>
+            <li>カレンダー機能の提供</li>
+            <li>祝日情報の表示</li>
+            <li>アプリの設定保持</li>
+        </ul>
+
+        <h2>3. 第三者への提供</h2>
+        <p>祝日データの取得のため、date.nager.at APIを利用しています。その他、お客様の個人情報を第三者に提供することはありません。</p>
+
+        <h2>4. データの保存</h2>
+        <p>メモデータはお客様のデバイス内にのみ保存され、外部のサーバーには送信されません。</p>
+
+        <h2>5. お問い合わせ</h2>
+        <div class="contact">
+            <p>プライバシーポリシーに関するご質問は、以下にお問い合わせください：</p>
+            <p>Email: memocale.app@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- English版 -->
+    <div id="content-en" class="content">
+        <h1>MemoCale Privacy Policy</h1>
+        <p><strong>Last Updated: January 2025</strong></p>
+        
+        <h2>1. Information We Collect</h2>
+        <p>MemoCale collects the following information:</p>
+        <ul>
+            <li>Content of memos you create (stored only on your device)</li>
+            <li>App settings (theme, language preferences, etc.)</li>
+            <li>Holiday data (retrieved from date.nager.at API)</li>
+        </ul>
+
+        <h2>2. How We Use Information</h2>
+        <p>We use the collected information for:</p>
+        <ul>
+            <li>Providing memo functionality</li>
+            <li>Providing calendar functionality</li>
+            <li>Displaying holiday information</li>
+            <li>Maintaining app settings</li>
+        </ul>
+
+        <h2>3. Third-Party Services</h2>
+        <p>We use the date.nager.at API to retrieve holiday data. We do not share your personal information with any other third parties.</p>
+
+        <h2>4. Data Storage</h2>
+        <p>Memo data is stored only on your device and is not transmitted to external servers.</p>
+
+        <h2>5. Contact</h2>
+        <div class="contact">
+            <p>For questions about this privacy policy, please contact:</p>
+            <p>Email: memocale.app@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- 中文版 -->
+    <div id="content-zh" class="content">
+        <h1>MemoCale 隐私政策</h1>
+        <p><strong>最后更新：2025年1月</strong></p>
+        
+        <h2>1. 我们收集的信息</h2>
+        <p>MemoCale收集以下信息：</p>
+        <ul>
+            <li>您创建的备忘录内容（仅存储在您的设备上）</li>
+            <li>应用设置信息（主题、语言设置等）</li>
+            <li>节假日数据（从date.nager.at API获取）</li>
+        </ul>
+
+        <h2>2. 信息使用目的</h2>
+        <p>我们将收集的信息用于：</p>
+        <ul>
+            <li>提供备忘录功能</li>
+            <li>提供日历功能</li>
+            <li>显示节假日信息</li>
+            <li>保持应用设置</li>
+        </ul>
+
+        <h2>3. 第三方服务</h2>
+        <p>我们使用date.nager.at API获取节假日数据。我们不会与其他第三方共享您的个人信息。</p>
+
+        <h2>4. 数据存储</h2>
+        <p>备忘录数据仅存储在您的设备上，不会传输到外部服务器。</p>
+
+        <h2>5. 联系我们</h2>
+        <div class="contact">
+            <p>如对本隐私政策有疑问，请联系：</p>
+            <p>Email: memocale.app@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- 한국어版 -->
+    <div id="content-ko" class="content">
+        <h1>MemoCale 개인정보처리방침</h1>
+        <p><strong>최종 업데이트: 2025년 1월</strong></p>
+        
+        <h2>1. 수집하는 정보</h2>
+        <p>MemoCale은 다음 정보를 수집합니다:</p>
+        <ul>
+            <li>작성한 메모 내용 (기기 내에만 저장)</li>
+            <li>앱 설정 정보 (테마, 언어 설정 등)</li>
+            <li>공휴일 데이터 (date.nager.at API에서 가져옴)</li>
+        </ul>
+
+        <h2>2. 정보 이용 목적</h2>
+        <p>수집된 정보는 다음 목적으로 이용됩니다:</p>
+        <ul>
+            <li>메모 기능 제공</li>
+            <li>캘린더 기능 제공</li>
+            <li>공휴일 정보 표시</li>
+            <li>앱 설정 유지</li>
+        </ul>
+
+        <h2>3. 제3자 서비스</h2>
+        <p>공휴일 데이터 취득을 위해 date.nager.at API를 이용합니다. 그 외 고객의 개인정보를 제3자에게 제공하지 않습니다.</p>
+
+        <h2>4. 데이터 저장</h2>
+        <p>메모 데이터는 고객의 기기 내에만 저장되며, 외부 서버로 전송되지 않습니다.</p>
+
+        <h2>5. 문의사항</h2>
+        <div class="contact">
+            <p>개인정보처리방침에 관한 문의사항은 다음으로 연락해 주세요:</p>
+            <p>Email: memocale.app@gmail.com</p>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all content
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => content.classList.remove('active'));
+            
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.language-selector button');
+            buttons.forEach(button => button.classList.remove('active'));
+            
+            // Show selected content and activate button
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
